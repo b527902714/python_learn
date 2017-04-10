@@ -15,8 +15,8 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from django import urls as focus_urls
-from django import views
+from focus import urls as focus_urls
+from focus import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
